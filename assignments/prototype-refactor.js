@@ -8,6 +8,7 @@ Prototype Refactor
 
 */
 
+
   class Gameobject {
     constructor(attributes){
    this.createdAt = attributes.createdAt;
@@ -31,7 +32,7 @@ Prototype Refactor
   }
 }
 
-   class Humanoid extends Gameobject 
+   class Humanoid extends CharacterStats
    {constructor(humanAttributes){
     super(humanAttributes);
     this.team = humanAttributes.team;
